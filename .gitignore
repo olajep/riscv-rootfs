@@ -1,5 +1,6 @@
 *.*
 *
+!/rootfsimg/etc/*
 !*/
 !Makefile*
 !.gitignore

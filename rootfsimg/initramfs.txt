@@ -41,6 +41,7 @@ dir /root/scripts/1 755 0 0
 dir /root/scripts/2 755 0 0
 dir /root/scripts/5 755 0 0
 file /root/scripts/setup-eth.sh ${RISCV_ROOTFS_HOME}/rootfsimg/scripts/setup-eth.sh 755 0 0
+file /root/scripts/setup-sl0.sh ${RISCV_ROOTFS_HOME}/rootfsimg/scripts/setup-sl0.sh 755 0 0
 file /root/scripts/nfs.sh ${RISCV_ROOTFS_HOME}/rootfsimg/scripts/nfs.sh 755 0 0
 file /root/scripts/1/load_dsid.sh ${RISCV_ROOTFS_HOME}/rootfsimg/scripts/1/load-cgroup.sh 755 0 0
 file /root/scripts/1/copy-file.sh ${RISCV_ROOTFS_HOME}/rootfsimg/scripts/1/copy-file.sh 755 0 0

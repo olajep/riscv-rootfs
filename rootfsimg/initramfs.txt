@@ -24,6 +24,8 @@ file /lib/libresolv.so.2 ${RISCV}/sysroot/lib/libresolv.so.2 755 0 0
 file /lib/libm.so.6 ${RISCV}/sysroot/lib/libm.so.6 755 0 0
 file /lib/libdl.so.2 ${RISCV}/sysroot/lib/libdl.so.2 755 0 0
 file /lib/libpthread.so.0 ${RISCV}/sysroot/lib/libpthread.so.0 755 0 0
+file /lib/libcrypt-2.26.so ${RISCV}/sysroot/lib/libcrypt-2.26.so 755 0 0
+slink /lib/libcrypt.so.1 libcrypt-2.26.so 755 0 0
 file /lib/libnss_files-2.26.so ${RISCV}/sysroot/lib/libnss_files-2.26.so 755 0 0
 slink /lib/libnss_files.so.2 libnss_files-2.26.so 755 0 0
 file /lib/libnss_dns-2.26.so ${RISCV}/sysroot/lib/libnss_dns-2.26.so 755 0 0

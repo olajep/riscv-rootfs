@@ -24,12 +24,18 @@ file /lib/libresolv.so.2 ${RISCV}/sysroot/lib/libresolv.so.2 755 0 0
 file /lib/libm.so.6 ${RISCV}/sysroot/lib/libm.so.6 755 0 0
 file /lib/libdl.so.2 ${RISCV}/sysroot/lib/libdl.so.2 755 0 0
 file /lib/libpthread.so.0 ${RISCV}/sysroot/lib/libpthread.so.0 755 0 0
+file /lib/libnss_files-2.26.so ${RISCV}/sysroot/lib/libnss_files-2.26.so 755 0 0
+slink /lib/libnss_files.so.2 libnss_files-2.26.so 755 0 0
+file /lib/libnss_dns-2.26.so ${RISCV}/sysroot/lib/libnss_dns-2.26.so 755 0 0
+slink /lib/libnss_dns.so.2 libnss_dns-2.26.so 755 0 0
 
 file /bin/busybox ${RISCV_ROOTFS_HOME}/rootfsimg/build/busybox 755 0 0
 file /etc/inittab ${RISCV_ROOTFS_HOME}/rootfsimg/inittab 644 0 0
 file /etc/mdev.conf ${RISCV_ROOTFS_HOME}/rootfsimg/etc/mdev.conf 644 0 0
 file /etc/group ${RISCV_ROOTFS_HOME}/rootfsimg/etc/group 644 0 0
 file /etc/passwd ${RISCV_ROOTFS_HOME}/rootfsimg/etc/passwd 644 0 0
+file /etc/hosts ${RISCV_ROOTFS_HOME}/rootfsimg/etc/hosts 644 0 0
+file /etc/nsswitch.conf ${RISCV_ROOTFS_HOME}/rootfsimg/etc/nsswitch.conf 644 0 0
 slink /init /bin/busybox 755 0 0
 
 dir /root/benchmark 755 0 0

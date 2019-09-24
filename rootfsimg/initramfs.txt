@@ -30,6 +30,8 @@ file /lib/libnss_files-2.26.so ${RISCV}/sysroot/lib/libnss_files-2.26.so 755 0 0
 slink /lib/libnss_files.so.2 libnss_files-2.26.so 755 0 0
 file /lib/libnss_dns-2.26.so ${RISCV}/sysroot/lib/libnss_dns-2.26.so 755 0 0
 slink /lib/libnss_dns.so.2 libnss_dns-2.26.so 755 0 0
+file /lib/librt-2.26.so ${RISCV}/sysroot/lib/librt-2.26.so 755 0 0
+slink /lib/librt.so librt-2.26.so 755 0 0
 
 file /bin/busybox ${RISCV_ROOTFS_HOME}/rootfsimg/build/busybox 755 0 0
 file /etc/inittab ${RISCV_ROOTFS_HOME}/rootfsimg/inittab 644 0 0
